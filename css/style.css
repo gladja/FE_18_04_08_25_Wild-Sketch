@@ -4,6 +4,8 @@
 
 body {
     background-color: #FAF6F3;
+    font-family: Tajawal;
+    font-weight: 400;
 }
 
 .cointaner {
@@ -15,8 +17,15 @@ body {
 .header-list {
     display: flex;
     gap: 32px;
+
 }
 
+.header-link {
+    color: var(--color-title);
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
 .wrap {
     display: flex;
     justify-content: space-between;
