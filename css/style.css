@@ -1,4 +1,10 @@
+:root {
+    --color-title: #0C0708;
+}
 
+body {
+    background-color: #FAF6F3;
+}
 
 .cointaner {
     width: 1344px;
@@ -38,12 +44,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .content {
     padding: 112px 0;
-    
+
 }
 
 .content-wrapper {
@@ -55,4 +61,42 @@
 .content-wrap {
     width: 616px;
 }
+
+.artistic-title {
+    font-family: Caveat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.48px;
+    text-align: center;
+    color: var(--color-title);
+}
+
+.artistic-text {
+    color: var(--color-title);
+    text-align: center;
+    font-family: Tajawal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.artistic-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+/* .artistic-list:nth-child(n+3) {
+    display: flex;
+    width: 346px;
+    height: 304px;
+}
+
+.artistics-item {
+    width: 416px;
+    height: 416px;
+    outline: solid red;
+} */
 
