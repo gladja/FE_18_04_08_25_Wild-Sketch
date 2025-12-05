@@ -79,6 +79,12 @@ body {
     height: 40px;
 }
 
+.content-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .artistic-title {
     font-family: Caveat;
     font-size: 48px;
