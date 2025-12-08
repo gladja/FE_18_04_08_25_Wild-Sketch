@@ -56,6 +56,24 @@ body {
 
 }
 
+.content-title {
+    font-family: Caveat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 450px;
+    letter-spacing: -0.4px;
+    margin: 0 0 32px;
+}
+
+.content-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.4px;
+  margin-bottom: 16px;
+}
+
 .content {
     padding: 112px 0;
 
@@ -67,6 +85,13 @@ body {
     align-items: center;
 }
 
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
 .content-wrap {
     width: 616px;
 }
@@ -77,12 +102,14 @@ body {
     background-image: url("../img/icon.png");
     width: 40px;
     height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .content-item {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 24px;
 }
 
 .artistic-title {
