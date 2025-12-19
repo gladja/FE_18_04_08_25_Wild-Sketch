@@ -1,23 +1,34 @@
 :root {
     --color-title: #0C0708;
+    --color-button: #FFB780;
+    --color-bg: #FAF6F3;
 }
 
 body {
-    background-color: #FAF6F3;
+    background-color: var(--color-bg);
     font-family: Tajawal;
     font-weight: 400;
+    color: var(--color-title);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .cointaner {
     width: 1344px;
     padding: 0 16px;
     margin: 0 auto;
+    outline: solid;
+}
+
+.header-logo {
+    padding: 7px 0; 
 }
 
 .header-list {
     display: flex;
     gap: 32px;
-
+    align-items: center;
+    height: 78px;
 }
 
 .header-link {
@@ -25,7 +36,28 @@ body {
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    padding: 15px 0;
 }
+
+.header-link:hover {
+    color: red;
+}
+
+.header-button {
+    padding: 8px 20px;
+    border-radius: 16px;
+    border: none;
+    background-color:var(--color-button);
+    height: 40px;
+    font-weight: 500;
+}
+
+.header-button:hover,
+.header-button:focus {
+    background-color: var(--color-bg);
+    outline: 1px solid #0c070826;
+}
+
 .wrap {
     display: flex;
     justify-content: space-between;
@@ -34,6 +66,7 @@ body {
 .header-wrap {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 .hero {
