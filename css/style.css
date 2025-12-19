@@ -2,6 +2,7 @@
     --color-title: #0C0708;
     --color-button: #FFB780;
     --color-bg: #FAF6F3;
+    --color-border: #0c070826;
 }
 
 body {
@@ -17,7 +18,6 @@ body {
     width: 1344px;
     padding: 0 16px;
     margin: 0 auto;
-    outline: solid;
 }
 
 .header-logo {
@@ -43,8 +43,8 @@ body {
     color: red;
 }
 
-.header-button {
-    padding: 8px 20px;
+.button {
+    padding: 10px 20px;
     border-radius: 16px;
     border: none;
     background-color:var(--color-button);
@@ -52,10 +52,10 @@ body {
     font-weight: 500;
 }
 
-.header-button:hover,
-.header-button:focus {
+.button:hover,
+.button:focus {
     background-color: var(--color-bg);
-    outline: 1px solid #0c070826;
+    outline: 1px solid var(--color-border);
 }
 
 .wrap {
@@ -77,9 +77,32 @@ body {
     width: 423px;
 }
 
+.hero-heading {
+     font-family: Caveat;
+     font-size: 56px;
+     font-weight: 700px;
+     line-height: 1;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    margin-top: 24px;
+}
+
 .hero-list {
     display: flex;
     gap: 16px;
+    margin-top: 32px;
+}
+
+.btn-color {
+    background-color: var(--color-bg);
+     outline: 1px solid var(--color-border);
+}
+
+.btn-color:hover,
+.btn-color:focus {
+    background-color: var(--color-button);
 }
 
 .hero-wrapper {
